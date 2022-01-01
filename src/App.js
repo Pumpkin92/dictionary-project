@@ -1,13 +1,20 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-      <a href="" className="btn btn-primary">
-        Dictionary App
-      </a>
+      <div className="container">
+        <header className="App-header"></header>
+
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">
+          Coded by Lucy Shaw and open-sourced on Github
+        </footer>
+      </div>
     </div>
   );
 }
