@@ -12,7 +12,13 @@ function App() {
           <Dictionary />
         </main>
         <footer className="text-center">
-          Coded by Lucy Shaw and open-sourced on Github
+          Coded by Lucy Shaw and{" "}
+          <a
+            href="https://github.com/Pumpkin92/dictionary-project"
+            target="_blank"
+          >
+            open-sourced on Github
+          </a>
         </footer>
       </div>
     </div>
