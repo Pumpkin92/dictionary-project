@@ -1,5 +1,28 @@
+body {
+  background-color: #fff6f6;
+}
+section {
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 20px 15px;
+  box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
 form {
   text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+input {
+  width: 100%;
+  border-color: #eee3e3;
+}
+.title {
+  font-size: 35px;
 }

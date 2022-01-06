@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
+import "./Definition.css";
 
 export default function Definition(props) {
   console.log(props.definition);
@@ -8,20 +9,22 @@ export default function Definition(props) {
   if (props.definition) {
     return (
       <div>
-        <h2>{props.definition.word}</h2>
-        {props.definition.phonetics.map(function (phonetic, index) {
-          return (
-            <div key={index}>
-              <Phonetic phonetic={phonetic} />
-            </div>
-          );
-        })}
-        <br />
+        <section>
+          <h2>{props.definition.word}</h2>
+          {props.definition.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index}>
+                <Phonetic phonetic={phonetic} />
+              </div>
+            );
+          })}
+        </section>
+
         {props.definition.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <Meaning meaning={meaning} />
-            </div>
+            </section>
           );
         })}
       </div>
