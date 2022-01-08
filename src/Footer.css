@@ -1,0 +1,23 @@
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  font-weight: bold;
+}
+
+.footer i {
+  padding: 10px;
+  color: #e0baba;
+}
+
+.footer .fa-envelope:hover {
+  color: #c99696;
+}
+.footer .fa-portrait:hover {
+  color: #c99696;
+}
+.footer .fa-github:hover {
+  color: #c99696;
+}
