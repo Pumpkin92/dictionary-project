@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -14,8 +13,9 @@ function App() {
         <footer className="text-center">
           Coded by{" "}
           <a
-            href="https:https://elastic-tesla-33daed.netlify.app/"
+            href="https://elastic-tesla-33daed.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             Lucy Shaw{" "}
           </a>
@@ -23,6 +23,7 @@ function App() {
           <a
             href="https://github.com/Pumpkin92/dictionary-project"
             target="_blank"
+            rel="noreferrer"
           >
             open-sourced on Github
           </a>
